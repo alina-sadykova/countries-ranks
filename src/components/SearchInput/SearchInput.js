@@ -3,7 +3,7 @@ import styles from "./SearchInput.module.css";
 const SearchInput = ({ ...rest }) => {
   return (
     <div className={styles.wrapper}>
-      <SearchIcon />
+      <SearchIcon color="inherit" />
       <input className={styles.input} type="text" {...rest} />
     </div>
   );
